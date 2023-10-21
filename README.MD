@@ -1,49 +1,49 @@
-# API CRUD em Spring Boot com MySQL - Programação Web
+# API CRUD em Spring Boot com MySQL - Disciplina de Programação Web
 
-Este repositório contém um projeto de API CRUD desenvolvida em Spring Boot com integração ao banco de dados MySQL. O projeto foi criado como parte da Máteria de Programação Web do curso de Engenharia de Software na Anhanguera.
+Este repositório abriga um projeto de API CRUD desenvolvido em Spring Boot, com integração ao banco de dados MySQL. O projeto foi concebido no âmbito da disciplina de Programação Web do curso de Engenharia de Software da Anhanguera.
 
 ## Descrição do Projeto
 
-O objetivo deste projeto é criar uma API que permita a criação, leitura, atualização e exclusão de registros em um banco de dados MySQL. A aplicação utiliza o framework Spring Boot, que facilita o desenvolvimento de aplicativos Java baseados na web.
+O propósito principal deste projeto é a criação de uma API que permite a realização de operações CRUD (Create, Read, Update, Delete) em um banco de dados MySQL. Para tal, faz uso do framework Spring Boot, renomado por simplificar o desenvolvimento de aplicações Java baseadas na web.
 
 ## Funcionalidades
 
-O projeto inclui as seguintes funcionalidades:
+Este projeto engloba as seguintes funcionalidades:
 
-- Exposição de endpoints para listagem de registros do banco de dados.
-- Endpoints para adição de novos registros.
-- Endpoints para edição de registros existentes.
-- Endpoints para exclusão de registros.
-- Integração com o banco de dados MySQL para persistência de dados.
+- Exposição de endpoints para listar registros do banco de dados.
+- Disponibilização de endpoints para adição de novos registros.
+- Implementação de endpoints para edição de registros já existentes.
+- Criação de endpoints para exclusão de registros.
+- Integração com o banco de dados MySQL para persistência dos dados.
 
 ## Tecnologias Utilizadas
 
 - Spring Boot
 - MySQL
-- Maven (para gerenciamento de dependências)
+- Maven (para gestão de dependências)
 
 ## Configuração
 
-Para executar o projeto, siga as etapas abaixo:
+Para executar o projeto, siga os passos a seguir:
 
-1. Certifique-se de ter o MySQL instalado em sua máquina e crie um banco de dados vazio.
-2. Clone este repositório em sua máquina.
-3. Abra o projeto em sua IDE favorita.
+1. Certifique-se de possuir o MySQL instalado em sua máquina e crie um banco de dados vazio.
+2. Realize a clonagem deste repositório em sua máquina.
+3. Abra o projeto em sua IDE de preferência.
 4. Configure as credenciais do banco de dados no arquivo `application.properties`.
-5. Execute o aplicativo Spring Boot.
+5. Inicialize a aplicação Spring Boot.
 
-## Como Usar
+## Como Utilizar
 
-Após a configuração e execução do aplicativo, você pode fazer solicitações HTTP aos endpoints para realizar operações de CRUD no banco de dados.
+Após a configuração e execução da aplicação, você poderá efetuar requisições HTTP aos endpoints para realizar operações de CRUD no banco de dados.
 
-## Contribuição
+## Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar solicitações de pull para melhorias.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou submeter solicitações de *pull* visando aprimorar o projeto.
 
 ## Licença
 
-Este projeto está licenciado sob os termos da Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob os termos da Licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
 
 ---
 
-**Divirta-se programando!**
+**Aproveite sua jornada de programação!**
