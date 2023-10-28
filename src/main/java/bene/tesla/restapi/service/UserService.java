@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import bene.tesla.restapi.domain.User;
+import bene.tesla.restapi.dto.UserDTO;
 import bene.tesla.restapi.repository.IUserRepository;
 import bene.tesla.restapi.service.exception.ObjectNotFoundException;
 
@@ -25,6 +26,17 @@ public class UserService {
             throw new ObjectNotFoundException("Objeto não encontrado");
         }
         return user;
+    }
+
+    public User insert(User user) {
+        return repo.insert(user);
+    }
+    public void delete(String id) {
+        findById(id);
+        repo.deleteById(id);
+    }
+    public User fromDTO(UserDTO objDTO) {
+        return new User(objDTO.getId(), objDTO.getName(), objDTO.getEmail());
     }
 
 }
