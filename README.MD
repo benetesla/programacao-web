@@ -19,7 +19,7 @@ Este projeto engloba as seguintes funcionalidades:
 ## Tecnologias Utilizadas
 
 - Spring Boot
-- MySQL
+- MongoDB 
 - Maven (para gestão de dependências)
 
 ## Configuração
