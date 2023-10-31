@@ -1,10 +1,10 @@
-# API CRUD em Spring Boot com MySQL - Disciplina de Programação Web
+# API CRUD em Spring Boot com MongoDB - Disciplina de Programação Web
 
-Este repositório abriga um projeto de API CRUD desenvolvido em Spring Boot, com integração ao banco de dados MySQL. O projeto foi concebido no âmbito da disciplina de Programação Web do curso de Engenharia de Software da Anhanguera.
+Este repositório abriga um projeto de API CRUD desenvolvido em Spring Boot, com integração ao banco de dados MongoDB. O projeto foi concebido no âmbito da disciplina de Programação Web do curso de Engenharia de Software da Anhanguera.
 
 ## Descrição do Projeto
 
-O propósito principal deste projeto é a criação de uma API que permite a realização de operações CRUD (Create, Read, Update, Delete) em um banco de dados MySQL. Para tal, faz uso do framework Spring Boot, renomado por simplificar o desenvolvimento de aplicações Java baseadas na web.
+O propósito principal deste projeto é a criação de uma API que permite a realização de operações CRUD (Create, Read, Update, Delete) em um banco de dados MongoDB. Para tal, faz uso do framework Spring Boot, renomado por simplificar o desenvolvimento de aplicações Java baseadas na web.
 
 ## Funcionalidades
 
@@ -14,7 +14,7 @@ Este projeto engloba as seguintes funcionalidades:
 - Disponibilização de endpoints para adição de novos registros.
 - Implementação de endpoints para edição de registros já existentes.
 - Criação de endpoints para exclusão de registros.
-- Integração com o banco de dados MySQL para persistência dos dados.
+- Integração com o banco de dados MongoDB para persistência dos dados.
 
 ## Tecnologias Utilizadas
 
@@ -26,7 +26,7 @@ Este projeto engloba as seguintes funcionalidades:
 
 Para executar o projeto, siga os passos a seguir:
 
-1. Certifique-se de possuir o MySQL instalado em sua máquina e crie um banco de dados vazio.
+1. Certifique-se de possuir o mongosh instalado em sua máquina e crie um banco de dados vazio.
 2. Realize a clonagem deste repositório em sua máquina.
 3. Abra o projeto em sua IDE de preferência.
 4. Configure as credenciais do banco de dados no arquivo `application.properties`.
